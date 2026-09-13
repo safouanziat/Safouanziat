@@ -1,7 +1,8 @@
 # Safouan Ziat, Ph.D.
 
 <p align="left">
-  <b>Computational Materials Scientist & Physicist | DFT, ML Potentials & Catalysis Workflows</b><br>
+  <b>Computational Materials Scientist & Experimental Surface Physicist</b><br>
+  <i>DFT & ML Potentials | UHV STM/MBE Surface Science | Reaction Mechanisms & Catalysis</i><br>
   <i>Nancy, France</i>
 </p>
 
@@ -19,23 +20,14 @@
 
 ---
 
-### 🔬 Profile & Research Focus
+### 🔬 Research Profile & Dual Competence
 
-Computational scientist with a Ph.D. in Materials Science and Solid-State Physics (Université de Lorraine / CNRS - Institut Jean Lamour). Specialized in ab initio reaction mechanisms, high-throughput catalytic screening, and bridging physics-based electronic structure with equivariant machine learning interatomic potentials.
+Ph.D. in Materials Science & Solid-State Physics (Université de Lorraine / CNRS - Institut Jean Lamour). Specialized in bridging hands-on ultra-high vacuum (UHV) surface physics with first-principles electronic structure and machine learning interatomic potentials.
 
-- **Electronic Structure & DFT**: Periodic calculations (VASP, Quantum ESPRESSO, GPAW), spin polarization, adsorption energies, CI-NEB transition-state search, and electronic descriptors (Bader charge, d-band center, COHP/ICOHP via LOBSTER).
-- **Machine Learning & Interatomic Potentials**: Deployment and fine-tuning of equivariant MLIPs (MACE, NequIP, SevenNet), on-the-fly active-learning molecular dynamics, and compressed-sensing symbolic regression (SISSO).
-- **High-Performance Computing (HPC)**: Automated end-to-end Python workflows (ASE, Pymatgen) for structure generation, SLURM batch execution, convergence checks, and data parsing on Tier-1 HPC infrastructures (GENCI, several million CPU hours).
-- **Experiment-Theory Bridge**: Simulated STM/LDOS images to connect atomistic configurations directly with ultra-high vacuum (UHV) experimental signatures.
-
----
-
-### 🚀 Highlighted Repositories
-
-- [**Autonomous_Pipeline_SAC**](https://github.com/safouanziat/Autonomous_Pipeline_SAC)  
-  *Autonomous multi-phase active learning pipeline coupling GPAW (DFT) and MACE (MLIP) for high-throughput screening, CI-NEB kinetics, and Langevin MD stability of single-atom catalysts (Pt-N$_x$C$_y$).*
-- [**Python_poisson**](https://github.com/safouanziat/Python_poisson)  
-  *High-precision numerical integration of 1D Poisson equations using the Numerov method.*
+- **Electronic Structure & DFT**: Periodic calculations (VASP, GPAW, Quantum ESPRESSO), spin polarization, adsorption energetics, CI-NEB transition-state searches, and electronic descriptors (Bader charges, d-band center, COHP/ICOHP via LOBSTER).
+- **UHV Surface Science & Microscopy**: Hands-on operation of variable-temperature polar STM (4 K liquid He / ~90 K liquid N₂), thin-film growth via Molecular Beam Epitaxy (MBE), surface preparation (Ar⁺ sputtering, annealing), and direct simulation of STM/LDOS images from DFT configurations.
+- **Machine Learning & Workflows**: Deployment and fine-tuning of equivariant MLIPs (MACE, NequIP, SevenNet), on-the-fly active-learning molecular dynamics, and compressed-sensing symbolic regression (SISSO).
+- **HPC & Reproducibility**: Automated end-to-end Python pipelines (ASE, Pymatgen) running on Tier-1 supercomputers (GENCI, several million CPU hours).
 
 ---
 
@@ -48,26 +40,23 @@ Computational scientist with a Ph.D. in Materials Science and Solid-State Physic
   <img src="https://img.shields.io/badge/MACE-Equivariant_MLIP-8A2BE2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/VASP-DFT-1b4d3e?style=for-the-badge" />
   <img src="https://img.shields.io/badge/GPAW-DFT-2b5b84?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Quantum_ESPRESSO-DFT-003366?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UHV_STM_%2F_MBE-Surface_Science-007acc?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Linux_&_SLURM-HPC-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
+
+---
+
+### 🚀 Highlighted Repositories
+
+- [**Autonomous_Pipeline_SAC**](https://github.com/safouanziat/Autonomous_Pipeline_SAC)  
+  *Autonomous multi-phase active learning pipeline coupling GPAW (DFT) and MACE (MLIP) for high-throughput screening, CI-NEB kinetics, and dynamic stability of single-atom catalysts.*
+- [**Python_poisson**](https://github.com/safouanziat/Python_poisson)  
+  *High-precision numerical integration of 1D Poisson equations using the Numerov method.*
 
 ---
 
 ### 📚 Selected Publications
 
-- **S. Ziat**, F. Brix, A. Tsaturyan, B. Kierren, É. Gaudry, *"How N-Doping Promotes Hydrogen Dissociation at Graphene-Based Single-Atom Catalysts"*, **J. Phys. Chem. Lett.**, 2026.  
-  [doi:10.1021/acs.jpclett.5c03805](https://doi.org/10.1021/acs.jpclett.5c03805)
-- T. Bequet, F. Brix, **S. Ziat**, C. Martinez, L. Piccolo, É. Gaudry, *"The Trade-Off Behind Optimal 3-Fold (C,N)-Coordinated Single-Atom Catalysts"*, accepted in **Nano Letters**, 2026 (SISSO descriptor screening).
-- U. Khan, J. A. Okolie, **S. Ziat**, *"Activated carbon as catalyst support and electrocatalyst for industrial chemical reactions"*, in *Activated Carbon: Progress and Applications*, Ch. 9, **Elsevier**, 2025.  
-  [doi:10.1016/B978-0-443-13840-9.00009-3](https://doi.org/10.1016/B978-0-443-13840-9.00009-3)
-
----
-
-### 🎓 Background
-
-- **Ph.D. in Materials Science & Solid-State Physics** | Université de Lorraine, CNRS - Institut Jean Lamour (2022–2026)  
-  *Thesis: DFT Study of H₂ Dissociation on Transition-Metal Single-Atom Catalysts Supported on N-Doped Graphene*
-- **M.Sc. in Condensed Matter & Nanophysics** | University of Strasbourg, IPCMS (2021–2022, With Honours)
-- **M.Sc. in Advanced Materials & Renewable Energies** | Université Moulay Ismail, Meknès (2017–2019, With Honours)
+- **S. Ziat**, F. Brix, A. Tsaturyan, B. Kierren, É. Gaudry, *"How N-Doping Promotes Hydrogen Dissociation at Graphene-Based Single-Atom Catalysts"*, **J. Phys. Chem. Lett.**, 2026. [doi:10.1021/acs.jpclett.5c03805](https://doi.org/10.1021/acs.jpclett.5c03805)
+- T. Bequet, F. Brix, **S. Ziat**, C. Martinez, L. Piccolo, É. Gaudry, *"The Trade-Off Behind Optimal 3-Fold (C,N)-Coordinated Single-Atom Catalysts"*, accepted in **Nano Letters**, 2026.
+- U. Khan, J. A. Okolie, **S. Ziat**, *"Activated carbon as catalyst support and electrocatalyst for industrial chemical reactions"*, in *Activated Carbon: Progress and Applications*, Ch. 9, **Elsevier**, 2025. [doi:10.1016/B978-0-443-13840-9.00009-3](https://doi.org/10.1016/B978-0-443-13840-9.00009-3)
