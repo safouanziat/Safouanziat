@@ -1,41 +1,73 @@
 # Safouan Ziat, Ph.D.
 
-**Computational Materials Scientist & Machine Learning Developer**  
-Specialized in DFT atomistic simulations, equivariant neural network potentials (MACE), and high-throughput workflows for single-atom catalysis (SAC).
+<p align="left">
+  <b>Computational Materials Scientist & Physicist | DFT, ML Potentials & Catalysis Workflows</b><br>
+  <i>Nancy, France</i>
+</p>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/ziat-safouan-427826134/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:safouanziat@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://doi.org/10.1021/acs.jpclett.5c03805" target="_blank">
+    <img src="https://img.shields.io/badge/J._Phys._Chem._Lett.-Publication-orange?style=for-the-badge" />
+  </a>
+</p>
 
 ---
 
-### 🔬 Research Focus & Expertise
-- **Atomistic Modeling**: Density Functional Theory (GPAW, VASP), Surface Science, Climbing-Image NEB kinetics.
-- **Machine Learning**: Foundation interatomic potentials (MACE), active learning, on-the-fly molecular dynamics (ASE).
-- **Substrates & Catalysis**: Reconstructed graphene pores, single-atom catalysts (Pt-N$_x$C$_y$), 2D materials.
+### 🔬 Profile & Research Focus
+
+Computational scientist with a Ph.D. in Materials Science and Solid-State Physics (Université de Lorraine / CNRS - Institut Jean Lamour). Specialized in ab initio reaction mechanisms, high-throughput catalytic screening, and bridging physics-based electronic structure with equivariant machine learning interatomic potentials.
+
+- **Electronic Structure & DFT**: Periodic calculations (VASP, Quantum ESPRESSO, GPAW), spin polarization, adsorption energies, CI-NEB transition-state search, and electronic descriptors (Bader charge, d-band center, COHP/ICOHP via LOBSTER).
+- **Machine Learning & Interatomic Potentials**: Deployment and fine-tuning of equivariant MLIPs (MACE, NequIP, SevenNet), on-the-fly active-learning molecular dynamics, and compressed-sensing symbolic regression (SISSO).
+- **High-Performance Computing (HPC)**: Automated end-to-end Python workflows (ASE, Pymatgen) for structure generation, SLURM batch execution, convergence checks, and data parsing on Tier-1 HPC infrastructures (GENCI, several million CPU hours).
+- **Experiment-Theory Bridge**: Simulated STM/LDOS images to connect atomistic configurations directly with ultra-high vacuum (UHV) experimental signatures.
 
 ---
 
-### 🚀 Featured Repositories
+### 🚀 Highlighted Repositories
+
 - [**Autonomous_Pipeline_SAC**](https://github.com/safouanziat/Autonomous_Pipeline_SAC)  
-  *Autonomous multi-phase pipeline coupling GPAW and MACE for high-throughput SAC screening, kinetics, and dynamic stability.*
+  *Autonomous multi-phase active learning pipeline coupling GPAW (DFT) and MACE (MLIP) for high-throughput screening, CI-NEB kinetics, and Langevin MD stability of single-atom catalysts (Pt-N$_x$C$_y$).*
 - [**Python_poisson**](https://github.com/safouanziat/Python_poisson)  
-  *Numerical resolution routines using the Numerov algorithm for Poisson equations.*
+  *High-precision numerical integration of 1D Poisson equations using the Numerov method.*
 
 ---
 
-### 🛠 Tech Stack & Tools
+### 🛠 Technical Stack & Scientific Tools
+
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/GPAW-DFT-2b5b84?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MACE-Equivariant_MLIP-8A2BE2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ASE-Atomic_Simulation_Environment-00599C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Linux-HPC-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/MACE-Equivariant_MLIP-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/VASP-DFT-1b4d3e?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GPAW-DFT-2b5b84?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Quantum_ESPRESSO-DFT-003366?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Linux_&_SLURM-HPC-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
 
-### 📬 Connect with Me
-<p align="left">
-  <a href="https://www.linkedin.com/in/ziat-safouan-427826134/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
+### 📚 Selected Publications
+
+- **S. Ziat**, F. Brix, A. Tsaturyan, B. Kierren, É. Gaudry, *"How N-Doping Promotes Hydrogen Dissociation at Graphene-Based Single-Atom Catalysts"*, **J. Phys. Chem. Lett.**, 2026.  
+  [doi:10.1021/acs.jpclett.5c03805](https://doi.org/10.1021/acs.jpclett.5c03805)
+- T. Bequet, F. Brix, **S. Ziat**, C. Martinez, L. Piccolo, É. Gaudry, *"The Trade-Off Behind Optimal 3-Fold (C,N)-Coordinated Single-Atom Catalysts"*, accepted in **Nano Letters**, 2026 (SISSO descriptor screening).
+- U. Khan, J. A. Okolie, **S. Ziat**, *"Activated carbon as catalyst support and electrocatalyst for industrial chemical reactions"*, in *Activated Carbon: Progress and Applications*, Ch. 9, **Elsevier**, 2025.  
+  [doi:10.1016/B978-0-443-13840-9.00009-3](https://doi.org/10.1016/B978-0-443-13840-9.00009-3)
+
+---
+
+### 🎓 Background
+
+- **Ph.D. in Materials Science & Solid-State Physics** | Université de Lorraine, CNRS - Institut Jean Lamour (2022–2026)  
+  *Thesis: DFT Study of H₂ Dissociation on Transition-Metal Single-Atom Catalysts Supported on N-Doped Graphene*
+- **M.Sc. in Condensed Matter & Nanophysics** | University of Strasbourg, IPCMS (2021–2022, With Honours)
+- **M.Sc. in Advanced Materials & Renewable Energies** | Université Moulay Ismail, Meknès (2017–2019, With Honours)
