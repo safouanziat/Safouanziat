@@ -59,11 +59,10 @@ Ph.D. in Materials Science and Solid-State Physics (Université de Lorraine / CN
 
 - **S. Ziat**, F. Brix, A. Tsaturyan, B. Kierren, É. Gaudry, *"How N-Doping Promotes Hydrogen Dissociation at Graphene-Based Single-Atom Catalysts"*, **J. Phys. Chem. Lett.**, 2026.  
   [doi:10.1021/acs.jpclett.5c03805](https://doi.org/10.1021/acs.jpclett.5c03805)
-- T. Bequet, F. Brix, **S. Ziat**, C. Martinez, L. Piccolo, É. Gaudry, *"The Trade-Off Behind Optimal 3-Fold (C,N)-Coordinated Single-Atom Catalysts"*, accepted in **Nano Letters**, 2026 (SISSO descriptor screening).
+- Théo Bequet, Florian Brix, **Safouan Ziat**, Corentin Martinez, Laurent Piccolo, et al., *"The Tradeoff behind Optimal 3-Fold (C,N)-Coordinated Single-Atom Catalysts"*, **Nano Letters**, 2026.  
+  [doi:10.1021/acs.nanolett.6c02777](https://doi.org/10.1021/acs.nanolett.6c02777)
 - U. Khan, J. A. Okolie, **S. Ziat**, *"Activated carbon as catalyst support and electrocatalyst for industrial chemical reactions"*, in *Activated Carbon: Progress and Applications*, Ch. 9, **Elsevier**, 2025.  
   [doi:10.1016/B978-0-443-13840-9.00009-3](https://doi.org/10.1016/B978-0-443-13840-9.00009-3)
-
----
 
 ### 🎓 Academic Background
 
