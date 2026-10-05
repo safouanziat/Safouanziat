@@ -31,7 +31,7 @@ Ph.D. in Materials Science and Solid-State Physics (Université de Lorraine / CN
 ## 🌱 Currently
 
 - ⚛️ Building autonomous **active-learning pipelines** (MACE + jobflow) that train MLIPs to DFT accuracy and extract kinetics (CI-NEB, BEP scaling) for single-atom catalysts.
-- 💥 Developing an **autonomous defect-engineering pipeline** (ASE + LAMMPS) that simulates high-energy Ar/N bombardment of graphene to generate vacancy and N-doped defect sites for single-atom catalyst supports.
+- 💥 Running **statistical molecular dynamics of Ar bombardment of graphene** (ASE + LAMMPS, 514 impacts, convergence-tested) to quantify vacancy yields and self-healing; N impacts next, with a MACE potential.
 - 🧪 Studying **H₂ dissociation** on N-doped graphene-supported transition-metal single-atom catalysts.
 
 ---
@@ -108,10 +108,9 @@ End-to-end Python workflows (ASE, Pymatgen) for high-throughput screening, SLURM
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <!-- TODO: wrap the title below in a link to the repository once it is public: <a href="https://github.com/safouanziat/REPO_NAME"> -->
-      <b>Autonomous Defect Engineering (MD)</b><br><br>
-      ASE + LAMMPS pipeline simulating high-energy particle bombardment on a 32×32 graphene supercell (2048 C atoms). Ar impacts (AIREBO + ZBL) and N impacts (ReaxFF with <code>qeq/reaxff</code>) over 20–80 eV and on-top / bridge sites: 28 scenarios generating vacancies, di-vacancies and N-doped defect sites for catalytic evaluation.<br><br>
-      <img src="https://img.shields.io/badge/LAMMPS-MD-d14836" alt="LAMMPS" /> <img src="https://img.shields.io/badge/ASE-00599C" alt="ASE" /> <img src="https://img.shields.io/badge/ReaxFF-AIREBO%2FZBL-6f42c1" alt="ReaxFF, AIREBO, ZBL" />
+      <a href="https://github.com/safouanziat/Graphene-Defect-Engineering-MD"><b>Graphene-Defect-Engineering-MD</b></a><br><br>
+      Statistical MD (ASE + LAMMPS, AIREBO + ZBL) of Ar bombardment of a thermalized 2048-atom graphene sheet: 514 random impacts at 50–200 eV, automatic outcome classification (single/di-vacancies, self-healing, projectile fate), vacancy yields with 95% intervals, an onset near 63 eV and convergence tests on quench time, window, sheet size and thresholds.<br><br>
+      <img src="https://img.shields.io/badge/LAMMPS-MD-d14836" alt="LAMMPS" /> <img src="https://img.shields.io/badge/ASE-00599C" alt="ASE" /> <img src="https://img.shields.io/badge/AIREBO%20%2B%20ZBL-6f42c1" alt="AIREBO and ZBL" />
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/safouanziat/Python_poisson"><b>Python_poisson</b></a><br><br>
