@@ -31,7 +31,7 @@ Ph.D. in Materials Science and Solid-State Physics (Université de Lorraine / CN
 ## 🌱 Currently
 
 - ⚛️ Building autonomous **active-learning pipelines** (MACE + jobflow) that train MLIPs to DFT accuracy and extract kinetics (CI-NEB, BEP scaling) for single-atom catalysts.
-- 💥 Running **statistical molecular dynamics of Ar bombardment of graphene** (ASE + LAMMPS, 514 impacts, convergence-tested) to quantify vacancy yields and self-healing; N impacts next, with a MACE potential.
+- 💥 Testing whether a **fine-tuned MACE potential can replace AIREBO for ion bombardment of graphene**, with GPAW DFT as the judge: AIREBO defect errors, Ar and N impacts, held-out whole-impact tests, and an open list of limits. Builds on the statistical MD of Ar bombardment (ASE + LAMMPS, 514 impacts).
 - 🧪 Studying **H₂ dissociation** on N-doped graphene-supported transition-metal single-atom catalysts.
 
 ---
@@ -108,15 +108,23 @@ End-to-end Python workflows (ASE, Pymatgen) for high-throughput screening, SLURM
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/safouanziat/Graphene_MLIP_Bombardment"><b>Graphene_MLIP_Bombardment</b></a><br><br>
+      Fine-tuned MACE (omat-0) against AIREBO for Ar and N bombardment of graphene, checked against GPAW DFT: AIREBO defect errors up to 2.2 eV, force error on impact frames 0.42 vs 1.11 eV/Å, a lower carbon displacement threshold, and nitrogen impacts tested on held-out whole impacts. Written as an article, with a data-leak correction and the limits stated openly.<br><br>
+      <img src="https://img.shields.io/badge/MACE-8A2BE2" alt="MACE" /> <img src="https://img.shields.io/badge/GPAW-2b5b84" alt="GPAW" /> <img src="https://img.shields.io/badge/LAMMPS-MD-d14836" alt="LAMMPS" /> <img src="https://img.shields.io/badge/ASE-00599C" alt="ASE" />
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/safouanziat/Graphene-Defect-Engineering-MD"><b>Graphene-Defect-Engineering-MD</b></a><br><br>
       Statistical MD (ASE + LAMMPS, AIREBO + ZBL) of Ar bombardment of a thermalized 2048-atom graphene sheet: 514 random impacts at 50–200 eV, automatic outcome classification (single/di-vacancies, self-healing, projectile fate), vacancy yields with 95% intervals, an onset near 63 eV and convergence tests on quench time, window, sheet size and thresholds.<br><br>
       <img src="https://img.shields.io/badge/LAMMPS-MD-d14836" alt="LAMMPS" /> <img src="https://img.shields.io/badge/ASE-00599C" alt="ASE" /> <img src="https://img.shields.io/badge/AIREBO%20%2B%20ZBL-6f42c1" alt="AIREBO and ZBL" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/safouanziat/Python_poisson"><b>Python_poisson</b></a><br><br>
       High-precision numerical integration of 1D Poisson equations using the Numerov method.<br><br>
       <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
